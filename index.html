@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="styling.css">
+		<title>OneStop Appl'n</title>
+	</head>
+	<body>
+		<div class="jumbotron">
+			<h1> RETRO CALCULATOR <h4> To use this calculator : click on calculator buttons or type directly in output screen </h4></h1>
+		</div>
+		<div>
+		<table> 
+			<tr>
+				<td colspan = "4"><input type="text" id="display"></td>
+			</tr>
+			<tr>
+				<td colspan= "8"><input type="button" value="clear" onclick="cls()" class="two"></td>
+			</tr>
+				<tr>
+					<td colspan= "2"><input type="button" value="1" onclick="valval('1')" class="two"></td>
+				    <td colspan="2"><input type="button" value="2" onclick="valval('2')" class="two"></td>
+				    <td colspan="2"><input type="button" value="3" onclick="valval('3')" class="two"></td>  
+				    <td colspan="2"><input type="button" value="4" onclick="valval('4')" class="two"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" value="5" onclick="valval('5')"  class="two"></td>
+				<td colspan="2"><input type="button" value="6" onclick="valval('6') " class="two"></td>
+				<td colspan="2"><input type="button" value="7" onclick="valval('7')"  class="two"></td>
+				<td colspan="2"><input type="button" value="8" onclick="valval('8')"  class="two"></td>
+			</tr>
+
+				<tr>
+				<td  colspan="2"><input type="button" value="9" onclick="valval('9')"  class="two"></td>
+				<td colspan="2" ><input type="button" value="0" onclick="valval('0')"  class="two"></td>
+				<td colspan="4"><input type="button" value="=" onclick="solve()"  class="two"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" value="+" onclick="valval('+')"  class="two"></td>
+				<td colspan="2"><input type="button" value="-" onclick="valval('-')"  class="two"></td>
+				<td colspan="2"><input type="button" value="*" onclick="valval('*')"  class="two"></td>
+				<td colspan="2"><input type="button" value="/" onclick="valval('/')"  class="two"></td>
+			</tr>
+		</table>
+</div>
+<div class="diffpage">
+	{
+		<a href="#"><h2> Click here to go to currency calculator </h2></a>
+		<a href="https://google.com"><h2> Click here to go to World Clock </h2><a>
+	}
+</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="functioning.js" type="text/javascript" charset="utf-8" async defer></script>
+	</body>
+	</html>
+</html>

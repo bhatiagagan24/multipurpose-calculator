@@ -1,0 +1,42 @@
+body{
+	background-image: url('https://cdn.pixabay.com/photo/2016/07/05/18/35/aircraft-1499171__340.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+#one{
+text-align: center;
+padding-bottom: 100px;
+}
+table{
+	text-align: center;
+}
+.two{
+	width: 100%;
+	margin-left: 10px;
+	margin-right: auto;
+	background-color: #008CBA;
+}
+#display{
+	width: 137%;
+	margin: 10px;
+	padding-bottom: 20px;
+	background-color: #a7e8e5 ;
+}
+
+.jumbotron{
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	color: orange;
+}
+.diffpage{
+	margin-top: 70px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: #684494;
+}
+a{
+		color: #684494;
+
+}
